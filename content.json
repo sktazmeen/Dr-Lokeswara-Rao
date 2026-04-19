@@ -1,0 +1,294 @@
+{
+  "site": {
+    "title": "Dr. Lokeswara Rao Pelluru | Cardiothoracic & Vascular Surgeon",
+    "favicon": "assets/images/favicon.png"
+  },
+
+  "navbar": {
+    "logo": {
+      "name": "Dr. L.R. Pelluru",
+      "subtitle": "CTVS Surgeon"
+    },
+    "links": [
+      { "label": "About",        "href": "#about" },
+      { "label": "Expertise",    "href": "#expertise" },
+      { "label": "Experience",   "href": "#experience" },
+      { "label": "Achievements", "href": "#achievements" },
+      { "label": "Procedures",   "href": "#procedures" },
+      { "label": "Gallery",      "href": "#gallery" }
+    ],
+    "cta": { "label": "Book Appointment", "href": "#contact" }
+  },
+
+  "hero": {
+    "badge": "Available for Consultations",
+    "name": "Dr. Lokeswara\nRao Pelluru",
+    "highlight": "Rao Pelluru",
+    "role": "Consultant Cardiothoracic & Vascular Surgeon",
+    "meta": "MBBS, DNB (CTVS) · 12+ Years Experience · KIMS Hospital, Nellore",
+    "checklist": [
+      "Advanced Cardiac & Thoracic Care",
+      "Minimally Invasive Expertise",
+      "Trusted by Hundreds of Patients"
+    ],
+    "buttons": [
+      { "label": "Book Consultation", "href": "#contact", "icon": "fa-calendar-check", "style": "primary" },
+      { "label": "Learn More",        "href": "#about",   "icon": "fa-arrow-down",     "style": "outline" }
+    ],
+    "stats": [
+      { "id": "stat-cabg",     "target": 200, "suffix": "+", "label": "CABG Surgeries" },
+      { "id": "stat-vascular", "target": 100, "suffix": "+", "label": "Vascular Ops"   },
+      { "id": "stat-years",    "target": 12,  "suffix": "+", "label": "Years Active"   }
+    ],
+    "hospital_badge": "KIMS Hospital",
+    "experience_badge": { "value": "12+", "label": "Years" }
+  },
+
+  "about": {
+    "badge": "About the Doctor",
+    "heading": "Committed to\nAdvanced Cardiac Care",
+    "paragraphs": [
+      "Dr. Lokeswara Rao Pelluru is a highly skilled Cardiothoracic and Vascular Surgeon with over <strong class='text-blue-700'>12 years of experience</strong> in performing complex heart, lung, and vascular procedures. Currently serving as a Consultant CTVS Surgeon at <strong class='text-blue-700'>KIMS Hospital, Nellore</strong>.",
+      "He has previously worked with reputed institutions including Medicover Hospital, Nellore, and Apollo Hospital, Chennai. Dr. Pelluru combines advanced surgical techniques with a strong focus on patient safety, faster recovery, and long-term health outcomes."
+    ],
+    "image": "assets/images/about-doctor.jpg",
+    "image_alt": "Dr. Lokeswara Rao Pelluru – Cardiothoracic Surgeon",
+    "qualifications": [
+      {
+        "icon": "fa-graduation-cap",
+        "color": "blue",
+        "degree": "MBBS",
+        "institution": "Dr. NTR University of Health Sciences (2012)"
+      },
+      {
+        "icon": "fa-certificate",
+        "color": "cyan",
+        "degree": "DNB – Cardiothoracic & Vascular Surgery",
+        "institution": "National Board of Examinations, India"
+      },
+      {
+        "icon": "fa-id-card",
+        "color": "emerald",
+        "degree": "AP Medical Council Registration",
+        "institution": "Reg. No: 75048"
+      }
+    ],
+    "floating_badges": [
+      { "icon": "fa-medal",    "bg": "blue",    "title": "DNB Certified",  "sub": "CTVS Surgery"  },
+      { "icon": "fa-hospital", "bg": "cyan",    "title": "KIMS Hospital",  "sub": "Nellore, AP"    }
+    ]
+  },
+
+  "expertise": {
+    "badge": "Areas of Expertise",
+    "heading": "Specialized Surgical Expertise",
+    "subtext": "Delivering precision in the most complex cardiac, thoracic, and vascular procedures.",
+    "cards": [
+      { "icon": "fa-heart-circle-plus", "color": "red",     "title": "Coronary Artery Bypass",    "desc": "Off-Pump CABG surgeries with 200+ successful outcomes and minimal complications." },
+      { "icon": "fa-minimize",          "color": "blue",    "title": "Minimally Invasive Surgery", "desc": "Advanced minimally invasive cardiac and valve surgeries with faster recovery times." },
+      { "icon": "fa-lungs",             "color": "cyan",    "title": "Thoracic Surgeries",         "desc": "Lobectomy, Decortication, Lung Trauma, VATS, and Thymectomy procedures." },
+      { "icon": "fa-droplet",           "color": "purple",  "title": "Vascular Surgeries",         "desc": "Bypass, Thrombectomy, A-V Fistulas, and Varicose Vein procedures with 100+ cases." },
+      { "icon": "fa-heart",             "color": "emerald", "title": "Valve Repair & Replacement", "desc": "Aortic and Pulmonary valve repair and replacement surgeries with excellent outcomes." },
+      { "icon": "fa-child-reaching",    "color": "orange",  "title": "Adult Congenital Heart",     "desc": "ASD, VSD, PDA closures and complex adult congenital heart condition surgeries." },
+      { "icon": "fa-video",             "color": "teal",    "title": "VATS",                       "desc": "Video-Assisted Thoracoscopic Surgery for precision thoracic procedures." },
+      { "icon": "fa-circle-nodes",      "color": "pink",    "title": "Cardiac Tumor Surgery",      "desc": "Expert surgical management of cardiac tumors requiring complex resection techniques." },
+      { "icon": "fa-bolt",              "color": "yellow",  "title": "Chest Trauma",               "desc": "Emergency and elective management of complex chest trauma and injuries." }
+    ]
+  },
+
+  "experience": {
+    "badge": "Career Journey",
+    "heading": "Professional Experience",
+    "timeline": [
+      {
+        "role": "Consultant CTVS Surgeon",
+        "hospital": "KIMS Hospital, Nellore",
+        "period": "2024 – Present",
+        "color": "blue",
+        "desc": "Currently leading the CTVS department, performing complex cardiac, thoracic, and vascular surgeries with exceptional outcomes.",
+        "tags": ["Cardiac Surgery", "CABG", "Valve Surgery"]
+      },
+      {
+        "role": "Consultant CTVS Surgeon",
+        "hospital": "Medicover Hospital, Nellore",
+        "period": "2020 – 2023",
+        "color": "cyan",
+        "desc": "Managed a wide spectrum of cardiothoracic surgeries, built the CTVS program, and mentored surgical teams.",
+        "tags": ["Thoracic Surgery", "Vascular"]
+      },
+      {
+        "role": "Junior Consultant",
+        "hospital": "Apollo Hospital, Chennai",
+        "period": "2018 – 2019",
+        "color": "slate",
+        "desc": "Trained under eminent surgeons at India's premier cardiac facility, gaining expertise in complex cardiac procedures.",
+        "tags": ["Apollo Chennai", "Advanced Training"]
+      }
+    ]
+  },
+
+  "achievements": {
+    "badge": "Key Achievements",
+    "heading": "Milestones & Recognition",
+    "stats": [
+      { "icon": "fa-heart-pulse", "gradient": "from-cyan-400 to-blue-500",    "value": "200+", "label": "Off-Pump CABG Surgeries"         },
+      { "icon": "fa-droplet",     "gradient": "from-emerald-400 to-teal-500",  "value": "100+", "label": "Vascular Surgeries & Procedures" },
+      { "icon": "fa-flask",       "gradient": "from-purple-400 to-pink-500",   "value": "12+",  "label": "Years of Expertise"              },
+      { "icon": "fa-trophy",      "gradient": "from-orange-400 to-red-500",    "value": "3+",   "label": "Premier Hospital Associations"   }
+    ],
+    "bullets": [
+      "Extensive experience in minimally invasive cardiac techniques",
+      "Actively involved in research and medical publications",
+      "Participated in multiple national-level workshops",
+      "Registered with Andhra Pradesh Medical Council (#75048)"
+    ]
+  },
+
+  "procedures": {
+    "badge": "Treatments",
+    "heading": "Specialized Treatments & Procedures",
+    "subtext": "A comprehensive range of cardiac, thoracic, and vascular interventions delivered with surgical precision.",
+    "list": [
+      "Coronary Angiogram & Angioplasty (PTCA)",
+      "CABG (Coronary Artery Bypass)",
+      "Valve Replacement & Repair",
+      "Pacemaker Implantation",
+      "Open Heart Surgery",
+      "Aortic & Pulmonary Valve Replacement",
+      "Biventricular Pacing",
+      "Thrombectomy",
+      "Video-Assisted Thoracoscopic Surgery (VATS)",
+      "Off-Pump CABG",
+      "Lobectomy & Decortication",
+      "A-V Fistula Creation",
+      "Varicose Vein Surgery",
+      "ASD / VSD / PDA Closure",
+      "Cardiac Tumor Resection",
+      "Thymectomy"
+    ],
+    "why_choose": {
+      "heading": "Why Choose Dr. Pelluru?",
+      "points": [
+        { "icon": "fa-star",                "color": "blue",    "text": "12+ years of specialized surgical experience"        },
+        { "icon": "fa-minimize",            "color": "cyan",    "text": "Expertise in minimally invasive procedures"          },
+        { "icon": "fa-shield-heart",        "color": "emerald", "text": "Proven success in complex cardiac surgeries"         },
+        { "icon": "fa-hand-holding-heart",  "color": "purple",  "text": "Patient-first approach with personalized care"       },
+        { "icon": "fa-hospital",            "color": "orange",  "text": "Association with leading premium hospitals"          },
+        { "icon": "fa-microscope",          "color": "rose",    "text": "Actively involved in research & publications"        }
+      ]
+    }
+  },
+
+  "community": {
+    "badge": "Community",
+    "heading": "Medical Camps & Community Initiatives",
+    "description": "Dr. Pelluru actively participates in community healthcare initiatives aimed at improving access to quality medical care beyond hospital walls.",
+    "items": [
+      { "icon": "fa-tent-medical", "color": "red",     "title": "Free Cardiac Health Camps",        "desc": "Conducted free cardiac and general health check-up camps for underserved communities." },
+      { "icon": "fa-bullhorn",     "color": "blue",    "title": "Heart Health Awareness Programs",   "desc": "Organized awareness programs on heart health, lifestyle diseases, and preventive care." },
+      { "icon": "fa-people-group", "color": "emerald", "title": "Rural & Underserved Communities",   "desc": "Collaborated with healthcare teams to support rural communities and promote early screening." }
+    ]
+  },
+
+  "network": {
+    "badge": "Network",
+    "heading": "Professional Network & Collaborations",
+    "description": "Dr. Pelluru maintains strong connections with leading specialists across India, ensuring the best possible coordinated care for every patient.",
+    "cards": [
+      { "icon": "fa-user-group",    "color": "blue",    "title": "Multidisciplinary Teams", "sub": "Complex surgical case collaboration" },
+      { "icon": "fa-comments",      "color": "cyan",    "title": "Knowledge Sharing",        "sub": "Medical conferences & forums"       },
+      { "icon": "fa-network-wired", "color": "purple",  "title": "Specialist Network",       "sub": "Cardiologists, anesthesiologists"   },
+      { "icon": "fa-book-medical",  "color": "emerald", "title": "Research & Publications",  "sub": "Active in medical research"         }
+    ]
+  },
+
+  "gallery": {
+    "badge": "Gallery",
+    "heading": "Professional Journey",
+    "subtext": "A glimpse into Dr. Pelluru's clinical practice, community outreach, and professional milestones.",
+    "images": [
+      { "thumb": "assets/images/gallery/gallery-1.jpg", "full": "assets/images/gallery/gallery-1.jpg", "alt": "Medical camp outreach",        "caption": "Medical Camp"     },
+      { "thumb": "assets/images/gallery/gallery-2.jpg", "full": "assets/images/gallery/gallery-2.jpg", "alt": "Surgical clinical practice",   "caption": "Surgical Practice"},
+      { "thumb": "assets/images/gallery/gallery-3.jpg", "full": "assets/images/gallery/gallery-3.jpg", "alt": "Medical conference",           "caption": "Conference"       },
+      { "thumb": "assets/images/gallery/gallery-4.jpg", "full": "assets/images/gallery/gallery-4.jpg", "alt": "Award ceremony",               "caption": "Award Ceremony"   },
+      { "thumb": "assets/images/gallery/gallery-5.jpg", "full": "assets/images/gallery/gallery-5.jpg", "alt": "National workshop",            "caption": "Workshop"         },
+      { "thumb": "assets/images/gallery/gallery-6.jpg", "full": "assets/images/gallery/gallery-6.jpg", "alt": "Health awareness drive",       "caption": "Awareness Drive"  },
+      { "thumb": "assets/images/gallery/gallery-7.jpg", "full": "assets/images/gallery/gallery-7.jpg", "alt": "KIMS Hospital Nellore",        "caption": "KIMS Hospital"    },
+      { "thumb": "assets/images/gallery/gallery-8.jpg", "full": "assets/images/gallery/gallery-8.jpg", "alt": "Certifications and training",  "caption": "Certifications"   }
+    ],
+    "placeholders": [
+      { "bg": "1e40af", "label": "Medical+Camp"     },
+      { "bg": "0e7490", "label": "Surgery+Practice" },
+      { "bg": "1d4ed8", "label": "Conference"       },
+      { "bg": "0369a1", "label": "Award+Ceremony"   },
+      { "bg": "155e75", "label": "Workshop"         },
+      { "bg": "1e3a5f", "label": "Awareness+Drive"  },
+      { "bg": "134e4a", "label": "KIMS+Hospital"    },
+      { "bg": "312e81", "label": "Certifications"   }
+    ]
+  },
+
+  "philosophy": {
+    "quote": "My goal is to ensure accurate diagnosis, effective treatment, and improved quality of life for every patient — combining advanced surgical expertise with empathy and clear communication.",
+    "author": "Dr. Lokeswara Rao Pelluru",
+    "author_role": "Consultant CTVS Surgeon"
+  },
+
+  "contact": {
+    "badge": "Get in Touch",
+    "heading": "Book a Consultation",
+    "subtext": "Take the first step towards better heart health. Schedule your consultation with Dr. Pelluru today.",
+    "info": [
+      { "icon": "fa-location-dot", "label": "Location", "value": "Nellore, Andhra Pradesh, India" },
+      { "icon": "fa-hospital",     "label": "Hospital",  "value": "KIMS Hospital, Nellore"        },
+      { "icon": "fa-phone",        "label": "Phone",     "value": "+91 [Contact Number]"          },
+      { "icon": "fa-envelope",     "label": "Email",     "value": "[Email Address]"               },
+      { "icon": "fa-id-card",      "label": "Medical Registration", "value": "AP Medical Council – Reg. No: 75048" }
+    ],
+    "form": {
+      "heading": "Request an Appointment",
+      "fields": [
+        { "id": "fname",    "label": "Full Name",                    "type": "text",     "placeholder": "Your full name",        "required": true  },
+        { "id": "phone",    "label": "Phone Number",                 "type": "tel",      "placeholder": "+91 XXXXX XXXXX",       "required": true  },
+        { "id": "email",    "label": "Email Address",                "type": "email",    "placeholder": "your@email.com",        "required": false },
+        { "id": "date",     "label": "Preferred Date",               "type": "date",     "placeholder": "",                      "required": false },
+        { "id": "concern",  "label": "Brief Description of Concern", "type": "textarea", "placeholder": "Describe your symptoms or reason for consultation...", "required": false }
+      ],
+      "submit_label": "Request Appointment",
+      "submit_icon": "fa-calendar-check",
+      "privacy_note": "Your information is kept confidential and secure.",
+      "success_message": "Thank you! Your appointment request has been submitted. Dr. Pelluru's team will contact you shortly."
+    }
+  },
+
+  "footer": {
+    "brand": {
+      "name": "Dr. Lokeswara Rao Pelluru",
+      "credentials": "MBBS, DNB (CTVS)",
+      "description": "Consultant Cardiothoracic and Vascular Surgeon delivering advanced heart, lung, and vascular care with precision and compassion."
+    },
+    "social": [
+      { "icon": "fab fa-linkedin-in", "href": "#", "label": "LinkedIn" },
+      { "icon": "fab fa-twitter",     "href": "#", "label": "Twitter"  },
+      { "icon": "fab fa-whatsapp",    "href": "#", "label": "WhatsApp" }
+    ],
+    "quick_links_heading": "Quick Links",
+    "quick_links": [
+      { "label": "About",        "href": "#about"        },
+      { "label": "Expertise",    "href": "#expertise"    },
+      { "label": "Experience",   "href": "#experience"   },
+      { "label": "Achievements", "href": "#achievements" },
+      { "label": "Procedures",   "href": "#procedures"   },
+      { "label": "Gallery",      "href": "#gallery"      }
+    ],
+    "contact_heading": "Contact",
+    "contact_info": [
+      { "icon": "fa-location-dot", "text": "Nellore, Andhra Pradesh, India" },
+      { "icon": "fa-hospital",     "text": "KIMS Hospital, Nellore"         },
+      { "icon": "fa-id-card",      "text": "AP Medical Council: 75048"      }
+    ],
+    "cta": { "label": "Book Appointment", "href": "#contact" },
+    "copyright": "© 2025 Dr. Lokeswara Rao Pelluru. All rights reserved.",
+    "tagline": "Consultant CTVS Surgeon | KIMS Hospital, Nellore"
+  }
+}

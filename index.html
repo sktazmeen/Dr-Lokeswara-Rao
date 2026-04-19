@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ══════════════════════════════════════════
+       Dr. Lokeswara Rao Pelluru – index.html
+       Shell only. All content is injected by
+       main.js which fetches content.json.
+  ══════════════════════════════════════════ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dr. Lokeswara Rao Pelluru – Consultant Cardiothoracic and Vascular Surgeon, KIMS Hospital Nellore. MBBS, DNB (CTVS), 12+ years experience." />
+
+  <!-- Page title (updated by JS after JSON load) -->
+  <title>Dr. Lokeswara Rao Pelluru | CTVS Surgeon</title>
+
+  <!-- ── Google Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ── Tailwind CSS (CDN) ── -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins:   ['Poppins', 'sans-serif'],
+            playfair:  ['Playfair Display', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- ── AOS – Animate on Scroll ── -->
+  <link  href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- ── Lightbox2 ── -->
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+
+  <!-- ── Font Awesome ── -->
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- ── Custom Stylesheet ── -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════
+       PAGE LOADER
+       Shown while content.json is being fetched
+       and DOM is being built.
+  ════════════════════════════════════════ -->
+  <div id="page-loader">
+    <i class="fa-solid fa-heart-pulse loader-heart"></i>
+    <p class="loader-text">Loading Dr. Pelluru's Portfolio…</p>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       NAVBAR
+       #nav-logo and #nav-links are placeholders
+       filled by main.js → buildNavbar()
+  ════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between py-4">
+        <!-- Logo slot -->
+        <div id="nav-logo"></div>
+
+        <!-- Desktop links slot -->
+        <div id="nav-links" class="hidden md:flex items-center gap-1"></div>
+
+        <!-- Hamburger -->
+        <button id="hamburger" class="md:hidden text-white p-2 rounded-lg hover:bg-white/10 transition" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="md:hidden bg-white/95 backdrop-blur-md rounded-2xl mb-3 shadow-2xl">
+        <div id="mobile-nav-links" class="p-4 flex flex-col gap-1"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <section id="hero-section" class="hero-bg min-h-screen flex items-center pt-20"></section>
+
+  <!-- ════════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════ -->
+  <section id="about" class="py-20 bg-white">
+    <div id="about-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       EXPERTISE
+  ════════════════════════════════════════ -->
+  <section id="expertise" class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+    <div id="expertise-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       EXPERIENCE
+  ════════════════════════════════════════ -->
+  <section id="experience" class="py-20 bg-white">
+    <div id="experience-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       ACHIEVEMENTS
+  ════════════════════════════════════════ -->
+  <section id="achievements" class="py-20 achievements-bg">
+    <div id="achievements-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       PROCEDURES
+  ════════════════════════════════════════ -->
+  <section id="procedures" class="py-20 bg-white">
+    <div id="procedures-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       COMMUNITY & NETWORK
+  ════════════════════════════════════════ -->
+  <section class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+    <div id="community-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       GALLERY
+  ════════════════════════════════════════ -->
+  <section id="gallery" class="py-20 bg-white">
+    <div id="gallery-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       PHILOSOPHY QUOTE
+  ════════════════════════════════════════ -->
+  <section class="py-20 philosophy-bg">
+    <div class="hero-grid-pattern absolute inset-0"></div>
+    <div id="philosophy-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════ -->
+  <section id="contact" class="py-20 bg-white">
+    <div id="contact-section"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="footer-bg text-white pt-16 pb-8">
+    <div id="footer-section"></div>
+  </footer>
+
+  <!-- ════════════════════════════════════════
+       SCROLL-TO-TOP BUTTON
+  ════════════════════════════════════════ -->
+  <button id="scrollTop" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ════════════════════════════════════════
+       TOAST NOTIFICATION (injected by JS)
+  ════════════════════════════════════════ -->
+  <div id="toast"></div>
+
+  <!-- ════════════════════════════════════════
+       SCRIPTS  (order matters)
+       1. jQuery  – required by Lightbox2
+       2. AOS
+       3. Lightbox2
+       4. main.js – our app logic
+  ════════════════════════════════════════ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
