@@ -712,7 +712,7 @@ document.addEventListener('DOMContentLoaded', init);
 const data1 = {
   "site": {
     "title": "Dr. Lokeswara Rao Pelluru | Cardiothoracic & Vascular Surgeon",
-    "favicon": "assets/images/favicon.png"
+    "favicon": "about-doctor.jpg"
   },
 
   "navbar": {
@@ -762,7 +762,7 @@ const data1 = {
       "Dr. Lokeswara Rao Pelluru is a highly skilled Cardiothoracic and Vascular Surgeon with over <strong class='text-blue-700'>12 years of experience</strong> in performing complex heart, lung, and vascular procedures. Currently serving as a Consultant CTVS Surgeon at <strong class='text-blue-700'>KIMS Hospital, Nellore</strong>.",
       "He has previously worked with reputed institutions including Medicover Hospital, Nellore, and Apollo Hospital, Chennai. Dr. Pelluru combines advanced surgical techniques with a strong focus on patient safety, faster recovery, and long-term health outcomes."
     ],
-    "image": "assets/images/about-doctor.jpg",
+    "image": "about-doctor.jpg",
     "image_alt": "Dr. Lokeswara Rao Pelluru – Cardiothoracic Surgeon",
     "qualifications": [
       {
