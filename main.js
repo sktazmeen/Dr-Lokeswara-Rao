@@ -23,17 +23,17 @@ const placeholder = (bg, label) =>
    1.  FETCH CONTENT & BOOTSTRAP
 ─────────────────────────────────────── */
 async function init() {
- // let data;
- // try {
-   // const res = await fetch('content.json');
-  //  if (!res.ok) throw new Error('Failed to load content.json');
-   // data = await res.json();
-   
- // } 
-  
+  let data;
   try {
-    if (!data) throw new Error('Data object is missing');
-  }
+   const res = await fetch('content.json');
+    if (!res.ok) throw new Error('Failed to load content.json');
+    data = await res.json();
+   
+  } 
+  
+  //try {
+    //if (!data) throw new Error('Data object is missing');
+ // }
   catch (err) {
     console.error(err);
     document.body.innerHTML = `<p style="padding:2rem;color:red;">
@@ -709,7 +709,7 @@ function showToast(msg) {
 document.addEventListener('DOMContentLoaded', init);
 
 
-const data = {
+const data1 = {
   "site": {
     "title": "Dr. Lokeswara Rao Pelluru | Cardiothoracic & Vascular Surgeon",
     "favicon": "assets/images/favicon.png"
